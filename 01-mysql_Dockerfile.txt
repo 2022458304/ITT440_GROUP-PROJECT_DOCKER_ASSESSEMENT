@@ -1,0 +1,5 @@
+FROM mysql:latest
+ENV MYSQL_ROOT_PASSWORD=my-secret-pw
+ENV MYSQL_DATABASE=gp_db
+ENV MYSQL_USER=myuser
+ENV MYSQL_PASSWORD=my-secret-pw
